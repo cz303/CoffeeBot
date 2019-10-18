@@ -15,10 +15,10 @@ from db_users import Db_users
 import json
 from flask import Flask, request
 
-TOKEN = os.environ['659414060:AAEWNZpJCVULIOoAdEP7oz8ZGoKJFfmW670']
+TOKEN = os.environ['token']
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
-basket = 'basket.py'
+basket = 'basket.py
 
 
 class Markup():
