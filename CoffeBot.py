@@ -15,7 +15,7 @@ from db_users import Db_users
 import json
 from flask import Flask, request
 
-TOKEN = os.environ['885760516:AAEjQvzf89OlPlwv6bzQ_T8IUNYTMcRnlHk']
+TOKEN = os.environ['659414060:AAFlCOca788u2sxZNmlQ1Zrs7ONP3AeeyXg']
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 basket = 'basket.py'
